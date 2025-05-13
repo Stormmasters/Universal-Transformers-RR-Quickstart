@@ -28,7 +28,7 @@ public class FraserTeleOp extends OpMode {
     @Override
     public void init() {
         Logger.disable();
-        Logger.info("TeleOp Initialized");
+        Logger.info("TeleOp Initialized"); 
         lift.initialize(hardwareMap);
         chassis.initialize(hardwareMap);
         extension.initialize(hardwareMap);
