@@ -25,7 +25,7 @@ jobs:
 
       - name: Fetch and update upstream branch
         run: |
-          git remote add upstream https://github.com/Pedro-Pathing/Quickstart.git
+          git remote add upstream https://github.com/acmerobotics/road-runner-quickstart.git
           git fetch upstream
           git checkout -B upstream upstream/master
 
